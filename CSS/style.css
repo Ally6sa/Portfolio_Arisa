@@ -98,9 +98,32 @@ header {
 }
 
 .logo{
-    width: 50px; 
-    height: 20px; 
+    max-width: 50px; 
 }
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #4a4a4a;
+  }  
+
+  nav > ul > li > a :active
+    font-weight: 700;
+    color: #ffa500;
+  }  
+
+
+
 
 .cta-main {
     display: inline-block;
@@ -116,6 +139,10 @@ header {
 .cta-main:hover {
     background-color: #0056b3;
 }
+
+main {
+    padding-top: 133px;
+ }
 
 
 /* Skills */
