@@ -47,10 +47,18 @@ body {
     font-weight: 400;
   }
 
-header {
+header.top {
     background-color: #767575;
     border-radius: 30px;
     padding: 60px 120px;
+    display: inline-block;
+}
+
+header.nottop {
+    border-radius: 30px;
+    width: 100%;
+    display: inline-block;
+    position: fixed
 }
 
 .navbar {
@@ -74,7 +82,7 @@ header {
 }
 
 .nav-link {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
@@ -140,8 +148,12 @@ nav > ul > li > a {
     background-color: #0056b3;
 }
 
-main {
-    padding-top: 133px;
+main.top {
+    padding-top: 30px;
+ }
+
+main.nottop {
+    padding-top: 170px;
  }
 
 
